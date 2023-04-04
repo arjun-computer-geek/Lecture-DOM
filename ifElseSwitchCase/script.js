@@ -70,15 +70,64 @@ var condition = "";
 // console.log(b, "b");
 // console.log(a, "a");
 
-const age = 80;
-const number = 5;
-const arr = [];
-if (-5.5) {
-  if (number > 10) {
-    console.log("greater than 10");
-  } else {
-    console.log("less than 10");
-  }
-} else {
-  console.log("age is not valid");
+// const age = 80;
+// const number = 5;
+// const arr = [];
+// if (-5.5) {
+//   if (number > 10) {
+//     console.log("greater than 10");
+//   } else {
+//     console.log("less than 10");
+//   }
+// } else {
+//   console.log("age is not valid");
+// }
+
+//switch case
+
+/*
+syntax for switch case 
+
+switch(condition){
+  case 1: 
+  code of execution
+    case 2: 
+  code of execution
+    case 3: 
+  code of execution
+   
+  default :
+   code of execution
 }
+*/
+
+var a = 1;
+
+// switch (a) {
+//   case 1:
+//     console.log("case 1");
+//     console.log("case 1 another console");
+//     break;
+//   case 3:
+//     console.log("case 3");
+//     break;
+//   case 5:
+//     console.log("case 5");
+//     break;
+//   case 6:
+//     console.log("case 6");
+//     break;
+//   default:
+//     console.log("default");
+// }
+
+// if (a === 1) {
+//   console.log("case 1");
+//   console.log("case 1 another console");
+// } else if (a === 3) {
+//   console.log("case 3");
+// } else if (a === 5) {
+//   console.log("case 5");
+// } else {
+//   console.log("default");
+// }
