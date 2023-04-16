@@ -55,3 +55,21 @@
 // };
 // mapcopy([1, 2, 3, 4, 5, 6, 7]);
 // mapcopy(myarr);
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const doubleValue = numbers.map((val) => {
+//   return 2 * val;
+// });
+
+// console.log(doubleValue);
+
+const oddValue = numbers.filter((val) => {
+  if (val % 2 !== 0) {
+    return true;
+  } else {
+    return false;
+  }
+});
+
+console.log(oddValue, "odd");
